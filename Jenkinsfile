@@ -27,7 +27,7 @@ pipeline {
             agent {
                 docker {
                     label 'docker'
-                    image 'base/archlinux'
+                    image 'archlinux/base'
                 }
             }
             steps {
